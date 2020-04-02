@@ -21,4 +21,8 @@ class Author
         Post.all.count
     end
 
+    def name
+        @name
+    end
+
 end
